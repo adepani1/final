@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="/playsound.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="#" />
+
+    <title>Text-to-Speech - Final Project </title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to the Text-to-Speech Converter</h1>
+            <h3>Instructions: please type in any text you would like to have ready aloud in the text-box below. Once you have done that
+            turn on the button to convert it to speech and hit submit button in the end.
+            </h3>
+        </div>
+
+        <div>
+            <textarea type="textarea" rows="30" class="textarea" id="textarea" placeholder="Enter text to convert to speech."></textarea>
+        </div>
+
+        <br>
+        <button type="button" class="button" onclick=play()>Speak</button>
+
+
+    </div>
+</body>
+</html>

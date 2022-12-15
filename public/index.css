@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+.content {
+    margin-top: -16px auto;
+    background-color: white;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#textarea {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
